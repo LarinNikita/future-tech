@@ -38,6 +38,20 @@
   translate: -50% -50%;
 }
 
+// Миксин для абсолютного центровки по горизонтали
+@mixin abs-x {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+}
+
+// Миксин для абсолютного центровки по вертикали
+@mixin abs-y {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+
 // Миксин для создания квадрата
 @mixin square($size) {
   width: $size;

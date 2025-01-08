@@ -6,9 +6,14 @@
 
 @use 'blocks/icon';
 @use 'blocks/logo';
-@use 'blocks/button';
-@use 'blocks/burger_button';
-@use 'blocks/header';
+@use 'blocks/hero';
+@use 'blocks/team';
 @use 'blocks/badge';
-@use 'blocks/soc1als';
+@use 'blocks/button';
+@use 'blocks/header';
 @use 'blocks/footer';
+@use 'blocks/soc1als';
+@use 'blocks/metrics';
+@use 'blocks/burger_button';
+@use 'blocks/advantage-card';
+@use 'blocks/resources-preview';
